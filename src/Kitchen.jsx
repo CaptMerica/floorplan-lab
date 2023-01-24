@@ -1,9 +1,12 @@
-
+import Oven from "./Oven"
+import Sink from "./Sink"
 
 function Kitchen (props) {
   return (
     <div>
-      <h2>Kitchen</h2>
+      <h1>Kitchen</h1>
+      <Oven />
+      <Sink />
     </div>
   )
 }
